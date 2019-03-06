@@ -1,0 +1,15 @@
+#home {
+    background-color: #2a2c37;
+    height: 1000px;
+}
+
+.prof-pic {
+    height: 150px;
+    border-radius: 50%;
+}
+
+#intro {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
