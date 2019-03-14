@@ -11,6 +11,12 @@ p {
 li {
     list-style-type: none;
     padding-top: 5px;
+    font-size: 1.5rem;
+}
+
+.section-head {
+    font-size: 3rem;
+    text-transform: uppercase;
 }
 
 /* Home Section */
@@ -21,13 +27,13 @@ li {
 }
 
 .prof-pic {
-    height: 200px;
+    height: 250px;
     border-radius: 50%;
 }
 
 #intro {
     color: white;
-    font-size: 2rem;
+    font-size: 2.5rem;
     padding-top: 55px;
 }
 
@@ -41,6 +47,10 @@ li {
     padding: 50px 0 50px 0;
 }
 
+.abt-blurb {
+    font-size: 1.5rem;
+}
+
 #hobbies, #tech {
     text-align: center;
 }
@@ -50,4 +60,5 @@ li {
 #projects {
     background-color: #2a2c37;
     color: white;
+    padding: 50px 0 50px 0;
 }
