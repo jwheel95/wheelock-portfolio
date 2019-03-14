@@ -58,6 +58,10 @@ li {
     font-size: 1.5rem;
 }
 
+.my-icon {
+    font-size: 2rem;
+}
+
 #hobbies, #tech {
     text-align: center;
 }
