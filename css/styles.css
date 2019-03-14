@@ -1,3 +1,16 @@
+/* General Rules */
+
+p {
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    padding-top: 5px;
+}
+
+/* Home Section */
+
 #home {
     background-color: #2a2c37;
     height: 900px;
@@ -11,10 +24,22 @@
 #intro {
     color: white;
     font-size: 2rem;
-    text-align: center;
     padding-top: 55px;
 }
 
 #hi, #name {
     color: #34b6ff;
+}
+
+/* About Section */
+
+#hobbies, #tech {
+    text-align: center;
+}
+
+/* Project Section */
+
+#projects {
+    background-color: #2a2c37;
+    color: white;
 }
