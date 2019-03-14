@@ -29,6 +29,7 @@ li {
 .prof-pic {
     height: 250px;
     border-radius: 50%;
+    border: 7px solid #244e72;
 }
 
 #intro {
