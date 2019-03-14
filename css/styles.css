@@ -30,15 +30,21 @@ li {
     height: 250px;
     border-radius: 50%;
     border: 7px solid #244e72;
+    animation-name: home-load;
+    animation-duration: 2s;
 }
 
 #intro {
     color: white;
     font-size: 2.5rem;
     padding-top: 55px;
+    animation-name: home-load;
+    animation-duration: 2s;
 }
 
-#hi, #name {
+.color-txt {
+    animation-name: color-change;
+    animation-duration: 3s;
     color: #34b6ff;
 }
 
@@ -62,4 +68,28 @@ li {
     background-color: #2a2c37;
     color: white;
     padding: 50px 0 50px 0;
+}
+
+/* Animations */
+@keyframes home-load {
+    0% {
+        margin-top: 200px;
+        opacity: 0;
+    }
+    100% {
+        margin-top: 0px;
+        opacity: 1;
+    }
+}
+
+@keyframes color-change {
+    0% {
+        color: white;
+    }
+    50% {
+        color: white;
+    }
+    100% {
+        color: #34b6ff;
+    }
 }
