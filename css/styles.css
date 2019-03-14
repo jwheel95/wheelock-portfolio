@@ -4,7 +4,7 @@
 }
 
 .prof-pic {
-    height: 180px;
+    height: 200px;
     border-radius: 50%;
 }
 
@@ -12,4 +12,9 @@
     color: white;
     font-size: 2rem;
     text-align: center;
+    padding-top: 55px;
+}
+
+#hi, #name {
+    color: #34b6ff;
 }
