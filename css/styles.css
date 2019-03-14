@@ -1,5 +1,9 @@
 /* General Rules */
 
+body {
+    font-family: Overpass;
+}
+
 p {
     text-align: center;
 }
@@ -32,6 +36,10 @@ li {
 }
 
 /* About Section */
+
+#about {
+    padding: 50px 0 50px 0;
+}
 
 #hobbies, #tech {
     text-align: center;
