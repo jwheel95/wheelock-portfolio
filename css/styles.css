@@ -64,6 +64,7 @@ li {
 
 #hobbies, #tech {
     text-align: center;
+    padding-top: 25px;
 }
 
 /* Project Section */
@@ -72,6 +73,25 @@ li {
     background-color: #2a2c37;
     color: white;
     padding: 50px 0 50px 0;
+}
+
+/* Contact Section */
+
+#contact {
+    padding-top: 50px;
+}
+
+.media-icons {
+    padding: 25px 0 25px 0;
+}
+
+.social-media {
+    font-size: 4rem;
+    color: black;
+}
+
+.social-media:hover {
+    color: #34b6ff;
 }
 
 /* Animations */
