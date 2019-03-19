@@ -1,5 +1,9 @@
 /* General Rules */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Overpass;
 }
@@ -28,7 +32,7 @@ nav {
 #navbarContent a {
     font-size: 1.2rem;
     color: white;
-    padding-right: 25px;
+    padding: 0px 50px 0px 0px;
 }
 
 #navbarContent a:hover {
