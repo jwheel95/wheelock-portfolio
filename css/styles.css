@@ -29,6 +29,10 @@ nav {
     background-color: #2a2c37;
 }
 
+.navbar-toggler-icon {
+    color: white;
+}
+
 #navbarContent a {
     font-size: 1.2rem;
     color: white;
@@ -43,7 +47,7 @@ nav {
 
 #home {
     background-color: #2a2c37;
-    height: 900px;
+    height: 1000px;
 }
 
 .prof-pic {
@@ -107,7 +111,7 @@ nav {
 
 .social-media {
     font-size: 4rem;
-    color: black;
+    color: #2a2c37;
 }
 
 .social-media:hover {
