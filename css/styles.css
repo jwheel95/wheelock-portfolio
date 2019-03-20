@@ -23,14 +23,15 @@ li {
     text-transform: uppercase;
 }
 
+.sub-head {
+    font-size: 2.5rem;
+    font-variant: small-caps;
+}
+
 /* Navbar */
 
 nav {
     background-color: #2a2c37;
-}
-
-.navbar-toggler-icon {
-    color: white;
 }
 
 #navbarContent a {
@@ -97,6 +98,30 @@ nav {
     background-color: #2a2c37;
     color: white;
     padding: 50px 0 50px 0;
+}
+
+.project-container {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 25px 0 25px 0;
+}
+
+.project-container a {
+    color: white;
+}
+
+.project-container a:hover {
+    color: #34b6ff;
+    text-decoration: none;
+}
+
+.project-pic {
+    width: 20rem;
+    border: 7px solid #244e72;
+}
+
+.project-row {
+    padding-top: 25px;
 }
 
 /* Contact Section */
