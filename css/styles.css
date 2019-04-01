@@ -8,6 +8,7 @@ body {
     font-family: Overpass;
 }
 
+
 p {
     text-align: center;
 }
@@ -79,12 +80,20 @@ nav {
     padding: 50px 0 50px 0;
 }
 
+.abt-blurb-div {
+    margin-right: 0;
+}
+
 .abt-blurb {
     font-size: 1.5rem;
 }
 
 .my-icon {
     font-size: 2rem;
+}
+
+ul {
+    padding-left: 0;
 }
 
 #hobbies, #tech {
